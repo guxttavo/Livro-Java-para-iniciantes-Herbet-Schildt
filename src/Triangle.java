@@ -3,8 +3,19 @@ public class Triangle extends TwoDShape {
 
     String style;
 
+    //cada construtor vai inicializar o seu objeto referente
+    Triangle(String s, double w, double h) {
+        setWidth(w);
+        setHeight(h);
+
+        style = s;
+    }
+
+    public Triangle() {
+    }
+
     double area() {
-        return width * height / 2;
+        return getWidth(2) * getHeight(2) / 2;
     }
 
     void showStyle() {

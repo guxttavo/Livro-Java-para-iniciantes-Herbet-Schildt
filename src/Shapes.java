@@ -5,12 +5,12 @@ public class Shapes {
 
         //todos os membros de Triangle estão disponíveis para objetos Triangle,
         //mesmo os herdados do TwoDShape
-        t1.width = 4.0;
-        t1.height = 4.0;
+        t1.setWidth(3.0);
+        t1.setHeight(2.1);
         t1.style = "filled";
 
-        t2.width = 8.0;
-        t2.height = 12.0;
+        t2.setWidth(2);
+        t2.setHeight(2);
         t2.style = "outlined";
 
         System.out.println("Info for t1: ");
