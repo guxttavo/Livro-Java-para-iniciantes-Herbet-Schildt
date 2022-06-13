@@ -4,6 +4,23 @@ public class TwoDShape {
     private double width;
     private double height;
 
+    //Construtor padrão
+    public TwoDShape() {
+        width = height = 0.0;
+    }
+
+    //Construtor parametrizado
+    public TwoDShape(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    //Constrói o objeto com altura e largura iguais
+    TwoDShape(double x) {
+        width = height = x;
+    }
+
+
     public double getWidth(double width) {
         return width;
     }
