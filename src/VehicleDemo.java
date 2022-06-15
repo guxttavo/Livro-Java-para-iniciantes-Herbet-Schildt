@@ -6,6 +6,12 @@ public class VehicleDemo {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
 
+        //Tanto car1 quanto car2 referenciam ao mesmo objeto,
+        //a atrinuição de de car1 a car2 simplesmente faz car2 referenciar o mesmo objeto que car1.
+        Vehicle car1 = new Vehicle();
+        Vehicle car2 = car1;
+
+
         int range1, range2;
 
         //o operador ponto vincula o nome de um objeto ao nome de um membro, podendo ser usado para acessar
