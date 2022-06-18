@@ -7,7 +7,7 @@ public class VehicleDemo {
         Vehicle sportscar = new Vehicle();
 
         //Tanto car1 quanto car2 referenciam ao mesmo objeto,
-        //a atrinuição de de car1 a car2 simplesmente faz car2 referenciar o mesmo objeto que car1.
+        //a atribuição de car1 a car2 simplesmente faz car2 referenciar o mesmo objeto que car1.
         Vehicle car1 = new Vehicle();
         Vehicle car2 = car1;
 
@@ -27,9 +27,12 @@ public class VehicleDemo {
         range1 = minivan.fuelcap * minivan.mpg;
         range2 = minivan.fuelcap * minivan.mpg;
 
-        System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + range1);
+        //System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + range1);
+        //System.out.println("Minivan can carry " + sportscar.passengers + " with a range of " + range2);
 
-        System.out.println("Minivan can carry " + sportscar.passengers + " with a range of " + range2);
+        Pwr x = new Pwr(4.0, 2);
+        Pwr y = new Pwr(5.0, 3);
+        Pwr z = new Pwr(6.0, 4);
 
     }
 }
